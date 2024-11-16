@@ -315,6 +315,7 @@ h1,h2,h3,h4,h5
         overflow: hidden;
         position: relative;
         margin-bottom: 30px;
+		
     }
 #portfolio .portfolio-thumb .portfolio-overlay
     {
@@ -336,6 +337,7 @@ h1,h2,h3,h4,h5
         opacity: 0.8;
         transform: scale(0.9);
     }
+	
 /* end portfolio */
 
 /* start contact */
@@ -447,14 +449,21 @@ footer hr
 }
 	
 .image-portfolio {
-  border-radius: 25px;
-  border: 2px solid #da291c;
+   box-shadow: 1px 1px 5px rgba(255, 0, 0, 0.7); /* Add a red cast shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   padding: 20px; 
   width: 200px;
   height: 340px; 
 
 }
+
+#project-Image {
 	
+    box-shadow: 1px 1px 5px rgba(255, 0, 0, 0.7); /* Add a red cast shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+	
+}
+
 }
 
 /* end social icon */
