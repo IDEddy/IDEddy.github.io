@@ -464,21 +464,6 @@ footer hr
 	
 }
 
-#project-Image img{
-	
-  
-  height: 300px; /* Explicit height to match your design */
-  width: 100%;
-	
-}
-
-.portfolio-img {
-  width: 100%;
-  height: 300px; /* Fixed height for consistency */
-  object-fit: cover; /* Prevents stretching */
-    box-shadow: 1px 1px 5px rgba(255, 0, 0, 0.7); /* Add a red cast shadow */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
 }
 
 /* end social icon */
